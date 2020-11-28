@@ -1,0 +1,24 @@
+{
+  "name": "ottila/Billingo",
+  "description": "Billingo API",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+	"name": "ottila",
+        "email": "31765066+ottila@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": "^7.1",
+    "firebase/php-jwt": "^5.2",
+    "symfony/options-resolver": "4.*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Billingo\\API\\Connector\\": "src"
+    }
+  }
+}
