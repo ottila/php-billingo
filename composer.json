@@ -1,5 +1,5 @@
 {
-  "name": "ottila/billingo",
+  "name": "ottila/php-billingo",
   "description": "Billingo API",
   "minimum-stability": "dev",
   "license": "MIT",
